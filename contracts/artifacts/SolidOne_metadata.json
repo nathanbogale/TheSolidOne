@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_hey",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_no",
+						"type": "uint256"
+					}
+				],
+				"name": "addInfo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hey",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "no",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ola.sol": "SolidOne"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ola.sol": {
+			"keccak256": "0x7836670b6470bc44da703363ad1fad40948826021ca95c0523b788281940a8f8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://170f4e3604ec222f95e3f7d52a75077226e224b670772da18e198edaf26d1336",
+				"dweb:/ipfs/QmcZS3vQJC2udFcaeTK4fpKzASAHeStUpnhQ6GgfUkTVoQ"
+			]
+		}
+	},
+	"version": 1
+}

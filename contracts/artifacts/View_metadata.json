@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "calculator",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "stateSum",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "localSum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getResults",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/viewsNpure.sol": "View"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/viewsNpure.sol": {
+			"keccak256": "0x84a75c934c48acb1d15ca48d925a25f7ee7d243bfb3c76490b8f5b8a0284e481",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://79415d2445d3dd9818bd6ac31df535757238737c17d6481695326865a46608e6",
+				"dweb:/ipfs/QmWvWWYUmUTQb3dGvBrfYA2BEDWwRR8gUTVD22KicYzE2R"
+			]
+		}
+	},
+	"version": 1
+}

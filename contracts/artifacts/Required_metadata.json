@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_input",
+						"type": "uint256"
+					}
+				],
+				"name": "checkODD",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_input",
+						"type": "uint256"
+					}
+				],
+				"name": "checkerNormal",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/errorHandling.sol": "Required"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/errorHandling.sol": {
+			"keccak256": "0x9735ab3afb5625b8fce305b215e2ba1bdb1f2fb3335f395edcdcd246b64df3eb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9186125c36722b6e33c2c1e4f4f939f118298c8d65dc8c3c8f20382a249e13a2",
+				"dweb:/ipfs/QmeNrhPV8gRAyEmR1ipMAJVabb5TUhyh5JfFnt2caMAFM1"
+			]
+		}
+	},
+	"version": 1
+}
