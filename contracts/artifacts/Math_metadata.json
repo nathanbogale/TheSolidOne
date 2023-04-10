@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/HOW_library_creation_use.sol": "Array"
+			"contracts/HOW_library_creation_use.sol": "Math"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

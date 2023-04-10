@@ -2,7 +2,10 @@
 pragma solidity ^ 0.8.13;
 
 contract Fallback{
-
+//In Solidity, a fallback function is an external function with neither a name, parameters, or return values. 
+//It is executed in one of the following cases: 
+  //If a function identifier doesn't match any of the available functions in a smart contract. 
+  //If there was no data supplied along with the function call.
   event Log(string func, uint gas);
 
   //fallback funciton must be external

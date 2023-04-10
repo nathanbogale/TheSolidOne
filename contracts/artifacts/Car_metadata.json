@@ -11,20 +11,32 @@
 						"internalType": "address",
 						"name": "_owner",
 						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "constructor"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "carAddr",
+				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
-				"name": "myFunc",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "model",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -32,7 +44,7 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -62,7 +74,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/try_catch.sol": "Main"
+			"contracts/HOW_contract_creating_other_contracts.sol": "Car"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -76,12 +88,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/try_catch.sol": {
-			"keccak256": "0x8bb314752580d2086c0e4f59cefc8a690be4eb973fcd3bdc5f4fbd6146dd6539",
+		"contracts/HOW_contract_creating_other_contracts.sol": {
+			"keccak256": "0x54e08c65548f6ae13d08185d19012bf2aa0ed0c8c27f82c700dff269e81ed716",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://31b470da95111d4a3ea91ed5d5302ff095f6e102b320d81ba1909b68cee171b3",
-				"dweb:/ipfs/QmUM4c2adagFrFvcWxzfkpBq9jW5X1YPFwxQ3MnBcxT94r"
+				"bzz-raw://ebf54a3dc44e2171cecee3755a6023abb5c074715d6ff8c1ce27d09b49728339",
+				"dweb:/ipfs/QmYqpvicK7QcQVnkUqiRdL6DpByRBVQFbNoKF7ftkpYY9V"
 			]
 		}
 	},

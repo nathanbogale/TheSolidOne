@@ -5,7 +5,8 @@ pragma solidity ^ 0.8.13;
 // import "./StructDeclaration.sol"
 
 contract Todos{
-
+//A struct is a creative data structure format in Solidity where variables of diverse data types can be bundled into one variable or a custom-made type. 
+//Once the data types are grouped into a struct, the struct name represents the subsets of variables in it.
     struct Todo{
         string text;
         bool completed; //completed turns bools in to true, from teh default false

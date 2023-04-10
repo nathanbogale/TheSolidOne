@@ -7,93 +7,72 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "externalFunc",
-				"outputs": [
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
 					{
+						"indexed": false,
 						"internalType": "string",
-						"name": "",
+						"name": "message",
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
+				"name": "Log",
+				"type": "event"
 			},
 			{
-				"inputs": [],
-				"name": "publicFunc",
-				"outputs": [
+				"anonymous": false,
+				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
+				"name": "LogBytes",
+				"type": "event"
 			},
 			{
 				"inputs": [],
-				"name": "publicVar",
+				"name": "main",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "contract Main",
 						"name": "",
-						"type": "string"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "testInternal",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"name": "tryCatchExternalCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "testMain",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "testPrivate",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "testPublic",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
+				"name": "tryCatchNewContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -110,7 +89,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/visibility.sol": "child"
+			"contracts/try_catch.sol": "child"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -124,12 +103,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/visibility.sol": {
-			"keccak256": "0xbc4652c98c10c2cb03433d0f8d3d014c5ca2a9c317b58d56315686ae0d27b7ba",
+		"contracts/try_catch.sol": {
+			"keccak256": "0x8bb314752580d2086c0e4f59cefc8a690be4eb973fcd3bdc5f4fbd6146dd6539",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e38774804c3845f599e1b1c0c1253bf8ed002fa63291d8a773bc3e3d96f17db4",
-				"dweb:/ipfs/QmbBAMhKZZrTJPtpgQNk66DfLVkENrLsoNtb2pkS96RtNw"
+				"bzz-raw://31b470da95111d4a3ea91ed5d5302ff095f6e102b320d81ba1909b68cee171b3",
+				"dweb:/ipfs/QmUM4c2adagFrFvcWxzfkpBq9jW5X1YPFwxQ3MnBcxT94r"
 			]
 		}
 	},
